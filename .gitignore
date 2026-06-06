@@ -1,0 +1,34 @@
+# IDE files
+.idea
+*.iml
+.classpath
+.project
+.settings
+.vscode
+.cursorrules
+.cursor
+
+target/
+testsuite/
+wasi-testsuite/
+dependency-reduced-pom.xml
+jmh-result.json
+scripts/jmh-tmp
+/main/
+
+/*.wasm
+.approval_tests_temp/
+
+# mac-os files
+.DS_Store
+
+/local-repo
+
+/wasm-tools/*.tar.gz
+
+/binaryen-install
+/zig-install
+/zig-source
+/zig-testsuite
+
+.claude
